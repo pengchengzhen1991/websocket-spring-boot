@@ -1,0 +1,181 @@
+{
+  "groups": [
+    {
+      "name": "spring.cloud.inetutils",
+      "type": "com.siwei.darwin.config.properties.InetUtilsProperties",
+      "sourceType": "com.siwei.darwin.config.properties.InetUtilsProperties"
+    },
+    {
+      "name": "websocket.instance",
+      "type": "com.siwei.darwin.config.properties.InstanceConfigBean",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean"
+    },
+    {
+      "name": "websocket.session",
+      "type": "com.siwei.darwin.config.properties.SessionConfigBean",
+      "sourceType": "com.siwei.darwin.config.properties.SessionConfigBean"
+    },
+    {
+      "name": "websocket.zookeeper-server",
+      "type": "com.siwei.darwin.config.properties.ZookeeperServerProperties",
+      "sourceType": "com.siwei.darwin.config.properties.ZookeeperServerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.cloud.inetutils.default-hostname",
+      "type": "java.lang.String",
+      "sourceType": "com.siwei.darwin.config.properties.InetUtilsProperties",
+      "defaultValue": "localhost"
+    },
+    {
+      "name": "spring.cloud.inetutils.default-ip-address",
+      "type": "java.lang.String",
+      "sourceType": "com.siwei.darwin.config.properties.InetUtilsProperties",
+      "defaultValue": "127.0.0.1"
+    },
+    {
+      "name": "spring.cloud.inetutils.ignored-interfaces",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.siwei.darwin.config.properties.InetUtilsProperties"
+    },
+    {
+      "name": "spring.cloud.inetutils.preferred-networks",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.siwei.darwin.config.properties.InetUtilsProperties"
+    },
+    {
+      "name": "spring.cloud.inetutils.timeout-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.siwei.darwin.config.properties.InetUtilsProperties",
+      "defaultValue": 1
+    },
+    {
+      "name": "spring.cloud.inetutils.use-only-site-local-interfaces",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.siwei.darwin.config.properties.InetUtilsProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "websocket.instance.appname",
+      "type": "java.lang.String",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean",
+      "defaultValue": "WebsocketApplication"
+    },
+    {
+      "name": "websocket.instance.environment",
+      "type": "org.springframework.core.env.Environment",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean"
+    },
+    {
+      "name": "websocket.instance.host-info",
+      "type": "com.siwei.darwin.common.util.InetUtils$HostInfo",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean"
+    },
+    {
+      "name": "websocket.instance.hostname",
+      "type": "java.lang.String",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean"
+    },
+    {
+      "name": "websocket.instance.inet-utils",
+      "type": "com.siwei.darwin.common.util.InetUtils",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean"
+    },
+    {
+      "name": "websocket.instance.instance-id",
+      "type": "java.lang.String",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean"
+    },
+    {
+      "name": "websocket.instance.ip-address",
+      "type": "java.lang.String",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean"
+    },
+    {
+      "name": "websocket.instance.msg-mode",
+      "type": "com.siwei.darwin.common.enums.MessageModeEnum",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean"
+    },
+    {
+      "name": "websocket.instance.non-secure-port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean"
+    },
+    {
+      "name": "websocket.instance.non-secure-port-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean",
+      "defaultValue": true
+    },
+    {
+      "name": "websocket.instance.prefer-ip-address",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean"
+    },
+    {
+      "name": "websocket.instance.registry-type",
+      "type": "com.siwei.darwin.common.enums.InstanceRegistryTypeEnum",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean"
+    },
+    {
+      "name": "websocket.instance.secure-port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean",
+      "defaultValue": 443
+    },
+    {
+      "name": "websocket.instance.secure-port-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean"
+    },
+    {
+      "name": "websocket.instance.url-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.siwei.darwin.config.properties.InstanceConfigBean",
+      "defaultValue": "\/websocket\/instance"
+    },
+    {
+      "name": "websocket.session.registry-type",
+      "type": "com.siwei.darwin.common.enums.SessionRegistryTypeEnum",
+      "sourceType": "com.siwei.darwin.config.properties.SessionConfigBean"
+    },
+    {
+      "name": "websocket.session.url-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.siwei.darwin.config.properties.SessionConfigBean",
+      "defaultValue": "\/websocket\/session"
+    },
+    {
+      "name": "websocket.zookeeper-server.connect-url",
+      "type": "java.lang.String",
+      "sourceType": "com.siwei.darwin.config.properties.ZookeeperServerProperties",
+      "defaultValue": "127.0.0.1:2181"
+    },
+    {
+      "name": "websocket.zookeeper-server.max-retries",
+      "type": "java.lang.Integer",
+      "sourceType": "com.siwei.darwin.config.properties.ZookeeperServerProperties",
+      "defaultValue": 3
+    },
+    {
+      "name": "websocket.zookeeper-server.namespace",
+      "type": "java.lang.String",
+      "sourceType": "com.siwei.darwin.config.properties.ZookeeperServerProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "websocket.zookeeper-server.retry-base-sleep-time",
+      "type": "java.lang.Integer",
+      "sourceType": "com.siwei.darwin.config.properties.ZookeeperServerProperties",
+      "defaultValue": 1000
+    },
+    {
+      "name": "websocket.zookeeper-server.session-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.siwei.darwin.config.properties.ZookeeperServerProperties",
+      "defaultValue": 3000
+    }
+  ],
+  "hints": []
+}

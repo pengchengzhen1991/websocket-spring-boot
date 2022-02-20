@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/websocket-spring-boot.iml" filepath="$PROJECT_DIR$/websocket-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocket-spring-boot-admin/websocket-spring-boot-admin.iml" filepath="$PROJECT_DIR$/websocket-spring-boot-admin/websocket-spring-boot-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocket-spring-boot-core/websocket-spring-boot-core.iml" filepath="$PROJECT_DIR$/websocket-spring-boot-core/websocket-spring-boot-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocket-spring-boot-sample/websocket-spring-boot-sample.iml" filepath="$PROJECT_DIR$/websocket-spring-boot-sample/websocket-spring-boot-sample.iml" />
+    </modules>
+  </component>
+</project>
